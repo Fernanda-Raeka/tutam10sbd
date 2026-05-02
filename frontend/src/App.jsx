@@ -5,7 +5,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [text, setText] = useState('');
 
-  const API_URL = 'http://localhost:5000/todos';
+  const API_URL = 'https://tutam10sbd.vercel.app/todos';
 
   const fetchTodos = async () => {
     try {
