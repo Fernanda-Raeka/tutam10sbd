@@ -48,5 +48,4 @@ app.delete('/todos/:id', async (req, res) => {
     }
 });
 
-const PORT = 5000;
-app.listen(PORT, () => console.log(`Server jalan di port ${PORT}`));
+module.exports = app;
